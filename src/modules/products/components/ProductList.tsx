@@ -2,7 +2,7 @@ import React from "react";
 import { DATA } from "../mock/Product";
 import ProductItem from "./ProductItem";
 import { PrismaType } from "@/lib/prisma";
-import { ProducstWithImage } from "@/type";
+import { ProducstWithImage } from "@/type/index";
 
 export default function ProductList({
   products,

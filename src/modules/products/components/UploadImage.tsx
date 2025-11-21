@@ -9,7 +9,6 @@ import { FC, useEffect, useState } from "react";
 import { deleteImage, fetchImages, uploadImage } from "../services/image";
 import Spinner from "@/components/Spinner";
 
-// 🔥 تایپ جایگزین Prisma — بدون نیاز به import از Prisma
 type ImageType = {
   id: string;
   image: string;
